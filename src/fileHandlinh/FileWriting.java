@@ -10,8 +10,9 @@ public class FileWriting {
 //		FileWriter fw=new FileWriter(f1); // normal Mode
 		FileWriter fw=new FileWriter(f1,true); // append Mode
 		
-		fw.write("Hell");
-		fw.write("HI");
+		fw.write("Hell0");
+		fw.write("10+20");
+		fw.write("HI55");
 		fw.flush();
 		System.out.println("data is written");
 		
